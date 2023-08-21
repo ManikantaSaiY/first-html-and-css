@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image-logo {
+    width: 100px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.bg-none {
+    background: none;
+}
+
+.navbar-cdark {
+    background-color: #0C0521 !important;
+}
+
+.custom-toggler {
+    background-color: white !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link-text {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.custom-container {
+    background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-section-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-teal {
+    color: #FFDDA9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cbtn {
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 200px;
+    font-weight: 500;
+    background-color: #FFDDA9;
+    outline: none;
+    border: none;
+}
+
+.cbtn:focus {
+    outline: none;
+}
